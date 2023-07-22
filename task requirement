@@ -1,0 +1,19 @@
+Rendering gaming cards, which contains:
+
+cards with denomination 2-10 all of stripes
+cards jack, queen, king all of stripes
+cards of aces of all suits
+
+
+In the model uses:
+
+Font-family https://fonts.google.com/specimen/Nerko+One
+Green color of the desk #55aa55
+Black color of the text #353c4d
+Icons for the 4 stripes and jack, queen, king in the images.zip archive
+
+
+All tags should render by js.
+
+The appearance of the task is NOT important, important only JS-code))
+https://lms.ithillel.ua/groups/63ff55e74be1cd16d9269f3d/homeworks/646877426f1ae45b27775011
