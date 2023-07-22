@@ -43,5 +43,11 @@ html svg, html img, body svg, body img {
 .card__info img {
   margin-left: 5px;
 }
+.left{
+  padding-right:70px
+}
+.right{
 
+  padding-left:70px
+}
 /*# sourceMappingURL=style.css.map */

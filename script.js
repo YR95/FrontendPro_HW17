@@ -10,27 +10,29 @@ while (n < numen.length) {
         if (numen[n] === 'tuz') {
             TDs.push(
                 `<td class="card card--person">
+          <img class="left" src="images/${mast[j]}.svg">
              <img class="person" src="images/${mast[j]}.svg">
-            <p>${numen[n]}</p>
-        <img src="images/${mast[j]}.svg">
+          
+        <img  class="right" src="images/${mast[j]}.svg">
                   </td>`
             );
         } else if (numen[n] === 'jack' || numen[n] === 'queen' || numen[n] === 'king') {
             TDs.push(
                 `<td class="card card--person">
-             <img  src="images/${mast[j]}.svg">
+             <img class="left" src="images/${mast[j]}.svg">
                <img class="person" src="images/${numen[n]}.svg">
-        <img src="images/${mast[j]}.svg">
+        <img class="right"src="images/${mast[j]}.svg">
                   </td>`
             );
-        }
-        
-        else {
+        } else {
             TDs.push(
                 `<td class="card">
-             <img src="images/${mast[j]}.svg">
-            <p>${numen[n]}</p>
-            <img src="images/${mast[j]}.svg">
+           
+           
+             <img  class="left" src="images/${mast[j]}.svg">
+            <p style="padding: 0 0" >${numen[n]}</p>
+           
+            <img class="right"src="images/${mast[j]}.svg">
                   </td>`
             );
         }
@@ -38,22 +40,20 @@ while (n < numen.length) {
     for (l = 0; l < mast.length; l++) {
         if (numen[n + 1] !== undefined) {
 
-      if (numen[n+1] === 'jack' || numen[n+1] === 'queen' || numen[n+1] === 'king') {
+            if (numen[n + 1] === 'jack' || numen[n + 1] === 'queen' || numen[n + 1] === 'king') {
                 TDs.push(
                     `<td class="card card--person">
-             <img  src="images/${mast[l]}.svg">
-               <img class="person" src="images/${numen[n+1]}.svg">
-        <img src="images/${mast[l]}.svg">
+             <img  class="left"src="images/${mast[l]}.svg">
+               <img class="person" src="images/${numen[n + 1]}.svg">
+        <img class="right"src="images/${mast[l]}.svg">
                   </td>`
                 );
-            }
-
-            else   {
+            } else {
                 TDs.push(
                     `<td class="card">
-             <img src="images/${mast[l]}.svg">
+             <img class="left" src="images/${mast[l]}.svg">
             <p>${numen[n + 1]}</p>
-        <img src="images/${mast[l]}.svg">
+        <img class="right" src="images/${mast[l]}.svg">
                   </td>`
                 );
 
